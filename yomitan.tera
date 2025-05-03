@@ -1,13 +1,13 @@
 ---
 whiskers:
-  version: "2.0.0"
+  version: "^2.0.0"
   matrix:
     - flavor
     - accent
   filename: 'themes/{{flavor.identifier}}/{{accent}}.css'
 ---
 /*
-Catppuccin 
+Catppuccin
 Soothing pastel theme for Yomitan
 {{ flavor.name }}, {{ flavor.colors[accent].name }}
 Made by ImenaOphelia with Whiskers
